@@ -61,11 +61,12 @@ COMP10619:Kafka pejman.tabassomi$ kafka-console-consumer --bootstrap-server loca
 ```
 
 
-### _Clone the repository and cd into it_
+### _Clone the repository and build the project_
 
 ```
 COMP10619:Kafka pejman.tabassomi$ git clone https://https://github.com/ptabasso2/spring-kafka-auto.git
 COMP10619:Kafka pejman.tabassomi$ cd spring-kafka-auto
+COMP10619:spring-kafka-auto pejman.tabassomi$ ./gradlew build
 ```
 
 ### _Download the java tracer_
