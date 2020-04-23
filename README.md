@@ -76,7 +76,7 @@ COMP10619:spring-kafka-auto pejman.tabassomi$ wget -O dd-java-agent.jar 'https:/
 ```
 
 
-### _Spin up the Datadog Agent (Provide your API key  to the  belown command_
+### _Spin up the Datadog Agent (Provide your API key in the below command)_
 
 
 ```
