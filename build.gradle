@@ -14,7 +14,7 @@ plugins {
 repositories {
     mavenLocal()
     maven {
-        url = 'http://repo.maven.apache.org/maven2'
+        url = 'https://repo.maven.apache.org/maven2'
     }
 }
 
@@ -23,10 +23,6 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web:2.1.0.RELEASE'
     compile 'org.springframework.kafka:spring-kafka:2.2.0.RELEASE'
     compile group: 'io.opentracing.contrib', name: 'opentracing-kafka-spring', version: "0.1.7"
-    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.1.0.RELEASE'
-    testCompile group: 'org.springframework.kafka', name: 'spring-kafka-test', version: '2.1.0.RELEASE'
-
-
 
 }
 
